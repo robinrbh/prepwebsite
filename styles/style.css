@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+p.note {
+    font-style: italic;
+    font-size: 11px;
+    margin: 5px 0 15px 0;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background: #1C383D;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.4)
+      ), url('../images/nyc.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+    .jumbotron h1,
+    .jumbotron p {
+        color: #fff;
+        text-shadow: 5px 5px 1px #1C383D;
+    }
+.nav>li>a {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-inverse {
+   background: #1C383D;
+   border: none;
+}
+
+    .navbar-inverse .navbar-nav>li>a {
+        color:#57ADBD;
+    }
+
+.container-fluid {
+   max-width: 1250px;
+}
+
+.menu-padding {
+    padding-top: 40px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.container {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.row {
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+.content {
+    max-width: 1170px;   
+    padding: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .row:nth-of-type(even) {
+        background-color: #e0dcdc;
+    }
+
+    .row:nth-of-type(odd) {
+        background-color: #fff;
+    }
+
+    .content img {
+        padding: 10px 10px 0 0;
+    }
+
+.imgAboutMe img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    background: #1D383C;
+    color: #fff;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        flex: 49%;
+        width: 49%;
+    }
+  }
